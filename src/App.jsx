@@ -73,7 +73,7 @@ function App() {
       // El gatito se esconde rápido (1 segundo)
       setTimeout(() => {
         setCatState({ active: false, position: randomPos });
-      }, 1000);
+      }, 2000);
     }, 12000);
 
     return () => clearInterval(catInterval);
