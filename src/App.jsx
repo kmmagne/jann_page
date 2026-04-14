@@ -132,7 +132,7 @@ function App() {
           <div className="explosion-text">
             <h2>SUPERNOVA</h2>
             <p>Vaya, has descifrado el corazón del refugio.</p>
-            <p className="prize-text">Te acabas de ganar un almuerzo o un pollo a la brasa.</p>
+            <p className="prize-text">Te acabas de ganar un almuerzo o un poshito cuando quieras </p>
             <button className="cloud-btn" onClick={() => setIsExploding(false)}>Reclamar premio</button>
           </div>
         </div>
@@ -156,8 +156,8 @@ function App() {
       {/* MENSAJES DEL INTERRUPTOR */}
       <div className={`secret-messages ${isGlowing ? 'visible' : ''}`}>
         <p className="msg msg-1">Kevin estuvo aquí</p>
-        <p className="msg msg-2">¡Me atrapaste!</p>
-        <p className="msg msg-3">¿Qué haces husmeando por aquí? (Toma un abrazo).</p>
+        <p className="msg msg-2">Hackeada master</p>
+        <p className="msg msg-3">¿Qué haces husmeando por aquí?.</p>
       </div>
 
       {/* EASTER EGGS ASTRONÓMICOS */}
